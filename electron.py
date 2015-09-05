@@ -1809,7 +1809,8 @@ for joder in range(10000):
         acumulado = acumulado + cantidad
 
 
-    print contador
+    sys.stdout.write('%s\r' % str(joder))
+    sys.stdout.flush()
     
     contador = contador + 1
 
