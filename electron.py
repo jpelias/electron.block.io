@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # list of words from http://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Contemporary_poetry
 
-#sudo apt-get install libwww-perl
+#sudo apt-get install libwww-perl solo necesario con import os para usar GET
 #sudo apt-get install  libgmp3-dev
 #sudo pip install gmpy
 
 
-import os
+# import os
 from time import sleep
 import sys, ecdsa, hashlib, binascii
 from addrgen import addr_from_mpk
