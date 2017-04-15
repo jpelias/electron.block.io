@@ -1780,7 +1780,7 @@ for joder in range(10000):
 
         url = "https://block.io/api/v2/get_address_balance/?api_key=0908-42b6-3792-14b9&addresses=" + direccion
 
-        #url = "https://bitcoin.toshi.io/api/v0/addresses/" + direccion
+        #url = "http://btc.blockr.io/api/v1/address/info/12c6DSiU4Rq3P4ZxziKxzrL5LmMBrzjrJX" + direccion
 
         headers = {'Content-Type': 'application/json',
            'Accept-Encoding': 'gzip, deflate' ,
